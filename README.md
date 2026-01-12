@@ -3,7 +3,7 @@
 
 A SLERP-based merge of **Llama-3 Chat** and **DeepSeek-Math**, built to deliver strong logical and mathematical reasoning while maintaining natural conversational fluency.
 
----
+
 
 ## ✨ Overview
 
@@ -13,7 +13,7 @@ A SLERP-based merge of **Llama-3 Chat** and **DeepSeek-Math**, built to deliver 
 
 The merge uses **SLERP (Spherical Linear Interpolation)** instead of naive averaging to preserve useful weight directions and avoid performance collapse.
 
----
+
 
 ## 🚀 Features
 
@@ -24,7 +24,7 @@ The merge uses **SLERP (Spherical Linear Interpolation)** instead of naive avera
 - Fully reproducible research pipeline
 - Hugging Face–compatible outputs
 
----
+
 
 ## 📁 Project Structure
 
@@ -45,7 +45,6 @@ chimera-7b-reasoning/
 └── README.md
 ```
 
----
 
 ## 🛠️ Requirements
 
@@ -59,7 +58,7 @@ chimera-7b-reasoning/
 pip install -r requirements.txt
 ```
 
----
+
 
 ## 🔀 Model Merge (SLERP)
 
@@ -67,7 +66,7 @@ pip install -r requirements.txt
 python merge/slerp_merge.py
 ```
 
----
+
 
 ## 🔤 Tokenizer Export
 
@@ -75,7 +74,7 @@ python merge/slerp_merge.py
 python tokenizer/export_tokenizer.py
 ```
 
----
+
 
 ## 📊 Evaluation (GSM8K)
 
@@ -83,7 +82,7 @@ python tokenizer/export_tokenizer.py
 python eval/eval_gsm8k.py
 ```
 
----
+
 
 ## 🧪 Inference Example
 
@@ -91,16 +90,4 @@ python eval/eval_gsm8k.py
 python inference/inference.py
 ```
 
----
 
-## ⚠️ Notes
-
-- Code-only repository
-- Upload weights to Hugging Face, not GitHub
-- Use Git LFS for large files
-
----
-
-## 📜 License
-
-Apache License 2.0
