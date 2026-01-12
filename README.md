@@ -1,8 +1,6 @@
-
-# chimera-7b-reasoning
+# Chimera 7B Reasoning
 
 A SLERP-based merge of **Llama-3 Chat** and **DeepSeek-Math**, built to deliver strong logical and mathematical reasoning while maintaining natural conversational fluency.
-
 
 
 ## ✨ Overview
